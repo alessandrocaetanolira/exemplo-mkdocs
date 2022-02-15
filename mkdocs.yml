@@ -14,5 +14,7 @@ nav:
   - Gnew: index.md
   - Tutorial: 
     - Início: pages/tutorial/inicio.md
-    - Configurações iniciais: index.md
+    - Configurações iniciais: pages/tutorial/config_iniciais.md
   - Integração: pages/integracao/integracao.md
+
+  # deploy githubPages: mkdocs gh-deploy
