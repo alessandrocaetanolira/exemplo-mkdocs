@@ -4,8 +4,8 @@ site_name: Integração Gnew
 theme:
   locale: pt
   name:  material
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: assets/img/logo.png
+  favicon: assets/img/logo.png
 
 extra_css:
   - css/extra_css.css
