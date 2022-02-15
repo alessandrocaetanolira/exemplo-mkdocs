@@ -1,0 +1,11 @@
+site_name: Integração Gnew
+# temas diversos: https://mkdocs.github.io/mkdocs-bootswatch/
+# theme: sandstone
+theme:
+  locale: pt
+  name:  material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+extra_css:
+  - css/extra_css.css
