@@ -1,11 +1,18 @@
-site_name: Integração Gnew
+site_name: Exemplo de documentação
 # temas diversos: https://mkdocs.github.io/mkdocs-bootswatch/
-# theme: sandstone
+# theme: material
 theme:
-  locale: pt
-  name:  material
+  # name:  material
+  name:  sandstone
   logo: assets/img/logo.png
   favicon: assets/img/logo.png
 
 extra_css:
   - css/extra_css.css
+
+nav:
+  - Gnew: index.md
+  - Tutorial: 
+    - Início: pages/tutorial/inicio.md
+    - Configurações iniciais: index.md
+  - Integração: pages/integracao/integracao.md
