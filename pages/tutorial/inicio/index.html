@@ -7,16 +7,16 @@
         
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Configurações iniciais - Exemplo de documentação</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Início - Exemplo de documentação</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/atelier-dune-light.min.css">
-        <link href="css/extra_css.css" rel="stylesheet">
+        <link href="../../../css/extra_css.css" rel="stylesheet">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Exemplo de documentação</a>
+                <a class="navbar-brand" href="../../..">Exemplo de documentação</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -35,23 +35,23 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="." class="nav-link">Gnew</a>
+                                <a href="../../.." class="nav-link">Gnew</a>
                             </li>
                             <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Tutorial <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="pages/tutorial/inicio/" class="dropdown-item">Início</a>
+    <a href="./" class="dropdown-item active">Início</a>
 </li>
                                     
 <li>
-    <a href="." class="dropdown-item active">Configurações iniciais</a>
+    <a href="../../.." class="dropdown-item">Configurações iniciais</a>
 </li>
                                 </ul>
                             </li>
                             <li class="navitem">
-                                <a href="pages/integracao/integracao/" class="nav-link">Integração</a>
+                                <a href="../../integracao/integracao/" class="nav-link">Integração</a>
                             </li>
                         </ul>
 
@@ -62,12 +62,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="pages/tutorial/inicio/" class="nav-link">
+                                <a rel="prev" href="../../.." class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="pages/integracao/integracao/" class="nav-link">
+                                <a rel="next" href="../../.." class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -89,8 +89,20 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#boas-vindas" class="nav-link">Boas vindas</a>
+            <li class="nav-item" data-level="1"><a href="#inicio" class="nav-link">Início</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#requisitos-minimos" class="nav-link">Requisitos mínimos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#commands" class="nav-link">Commands</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -98,9 +110,42 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="boas-vindas">Boas vindas</h1>
+<h1 id="inicio">Início</h1>
+<p>Breve descrição </p>
 <!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org). -->
-<p><img alt="Imagem gnew" src="assets/img/logo.png" /></p></div>
+
+<h2 id="requisitos-minimos">Requisitos mínimos</h2>
+<table>
+<thead>
+<tr>
+<th>CPU</th>
+<th>RAM</th>
+<th>DISK</th>
+<th>OS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.0 GHZ</td>
+<td>4GB</td>
+<td>80GB</td>
+<td>LINUX</td>
+</tr>
+</tbody>
+</table>
+<h2 id="commands">Commands</h2>
+<ul>
+<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>mkdocs build</code> - Build the documentation site.</li>
+<li><code>mkdocs -h</code> - Print help message and exit.</li>
+</ul>
+<h2 id="project-layout">Project layout</h2>
+<pre><code>mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    ...       # Other markdown pages, images and other files.
+</code></pre></div>
             </div>
         </div>
 
@@ -109,11 +154,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "../../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
