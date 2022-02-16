@@ -2,10 +2,24 @@ site_name: Exemplo de documentação
 # temas diversos: https://mkdocs.github.io/mkdocs-bootswatch/
 # theme: material
 theme:
-  # name:  material
-  name:  sandstone
+  language: pt
+  name:  material
+  # name:  sandstone
   logo: assets/img/logo.png
-  favicon: assets/img/logo.png
+  favicon: assets/img/índice.ico
+  # custom modo escuro
+  palette:
+    - scheme: default
+      primary: default
+      toggle:
+        icon: material/weather-sunny
+        name: Modo noturno
+    - scheme: slate
+      primary: default
+      toggle:
+        icon: material/weather-night
+        name: Modo claro
+
 
 extra_css:
   - css/extra_css.css
@@ -15,6 +29,21 @@ nav:
   - Tutorial: 
     - Início: pages/tutorial/inicio.md
     - Configurações iniciais: pages/tutorial/config_iniciais.md
-  - Integração: pages/integracao/integracao.md
+  - Integrações: 
+    - MoviDesk:
+      - Overview: pages/integracao/movidesk/overview.md
+      - Preparando o ambiente: pages/integracao/movidesk/prepara_ambiente.md
+    
+plugins:
+    - mkdocs-video
 
-  # deploy githubPages: mkdocs gh-deploy
+
+# extensions
+markdown_extensions:
+  - pymdownx.tasklist #lista de tarefas
+
+# DEPLOY githubPages 
+# $ mkdocs gh-deploy
+
+# DEPLOY apache 
+# $ mkdocs build

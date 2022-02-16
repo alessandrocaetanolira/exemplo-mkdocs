@@ -9,6 +9,7 @@ mkdocs==1.2.3
 mkdocs-bootswatch==1.1
 mkdocs-material==8.1.11
 mkdocs-material-extensions==1.0.3
+mkdocs-video==1.1.0
 packaging==21.3
 Pygments==2.11.2
 pymdown-extensions==9.2
