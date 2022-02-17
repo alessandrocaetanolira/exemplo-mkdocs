@@ -1,29 +1,103 @@
-site_name: Exemplo de documentação
-# temas diversos: https://mkdocs.github.io/mkdocs-bootswatch/
-# theme: material
+# PROJECT INFORMATION
+site_name: Gnew
+
+# REPOSITORY
+# Repository
+repo_name: alessandrocaetanolira/exemplo-mkdocs
+repo_url: https://github.com/alessandrocaetanolira/exemplo-mkdocs
+edit_uri: ""
+
+# COPYRIGHT
+copyright: Copyright &copy; GNEW
+
+# CONFIGURATION
 theme:
-  language: pt
-  name:  material
-  # name:  sandstone
-  logo: assets/img/logo.png
-  favicon: assets/img/índice.ico
-  # custom modo escuro
-  palette:
-    - scheme: default
-      primary: default
-      toggle:
-        icon: material/weather-sunny
-        name: Modo noturno
-    - scheme: slate
-      primary: default
-      toggle:
-        icon: material/weather-night
-        name: Modo claro
+    logo: assets/imagens/logo.png
+    favicon: assets/icons/índice.ico
+    language: pt
+    name: material
+    features:
+      - navigation.tabs
+      - tabs
+    static_templates:
+    - 404.html
+    palette:
+      - scheme: default
+        primary: default
+        toggle:
+            icon: material/weather-night
+            name: Modo noturno
+      - scheme: slate
+        primary: default
+        toggle:
+            icon: material/weather-sunny
+            name: Modo Claro
 
 
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+
+# CUSTOMIZATION
 extra_css:
-  - css/extra_css.css
+  - assets/css/extra_css.css
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/squidfunk
+    - icon: fontawesome/brands/gitter
+      link: https://gitter.im/squidfunk/mkdocs-material
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/squidfunk/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/squidfunk
 
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+  # NAV
 nav:
   - Gnew: index.md
   - Tutorial:
@@ -34,17 +108,3 @@ nav:
     - MoviDesk:
       - Overview: pages/integracao/movidesk/overview.md
       - Preparando o ambiente: pages/integracao/movidesk/prepara_ambiente.md
-    
-plugins:
-    - mkdocs-video
-
-
-# extensions
-markdown_extensions:
-  - pymdownx.tasklist #lista de tarefas
-
-# DEPLOY githubPages 
-# $ mkdocs gh-deploy
-
-# DEPLOY apache 
-# $ mkdocs build
