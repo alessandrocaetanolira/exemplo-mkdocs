@@ -6,7 +6,7 @@ O Movidesk é um sistema de atendimento que une recursos de Help Desk e Service 
 
 ### Recursos utilizados
 * `Chamada transferida` - Ligações atendidas.
-* `Chamada finalizada` - Ligaçẽs encerradas.
+* `Chamada finalizada` - Ligações encerradas.
 * `Chamada cancelada/abandonada` - Ligações que não tiveram atendimento.
 
 ## O projeto (proposta)

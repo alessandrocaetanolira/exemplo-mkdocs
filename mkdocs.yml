@@ -26,7 +26,8 @@ extra_css:
 
 nav:
   - Gnew: index.md
-  - Tutorial: 
+  - Tutorial:
+    - Facilidades: pages/tutorial/facilidades.md
     - Início: pages/tutorial/inicio.md
     - Configurações iniciais: pages/tutorial/config_iniciais.md
   - Integrações: 
