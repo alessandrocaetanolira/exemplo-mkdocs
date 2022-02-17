@@ -1,8 +1,8 @@
 ## Ao logar na ferramenta temos o primeiro menu:
 
 Nessa tela podemos ver alguns campos para ser preenchidos onde: 
-
-![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 1.png)
+![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 1.png){: .zoom}
+<!-- [ ![](../../assets/imagens/tutorial/inicio/figura 1.png) ](../../assets/imagens/tutorial/inicio/figura 1.png) -->
 
 **Data Inicial:** Dia inicial para puxar os relatórios. 
 
@@ -24,7 +24,8 @@ Nessa tela podemos ver alguns campos para ser preenchidos onde:
 
 Realizei um filtro do período do dia 01/01 a 31/01. Onde o Gnew me trouxe um resumo das chamadas que foram recebidas e realizadas.
 
-![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 2.png)
+![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 2.png){: .zoom}
+<!-- [ ![](../../assets/imagens/tutorial/inicio/figura 2.png) ](../../assets/imagens/tutorial/inicio/figura 2.png) -->
 
 Temos as seguintes informações:
 
@@ -37,19 +38,25 @@ Temos as seguintes informações:
 
 Mais abaixo temos as informações da chamada individual. Onde podemos ver a data e o horário que ocorreu a chamada, a origem (quem fez a chamada) e o destino (para onde o agente ligou). Temos a duração em segundos da chamada, o tipo da tarifação no caso foi um VC1 (chamada celular local SP) e por fim o custo da chamada. 
 
-![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 3.png)
+![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 3.png){: .zoom}
+<!-- [ ![](../../assets/imagens/tutorial/inicio/figura 3.png) ](../../assets/imagens/tutorial/inicio/figura 3.png) -->
 
 Se clicarmos em cima da chamada, teremos mais algumas informações, juntamente com o áudio da ligação. Caso necessário podemos baixar o arquivo. 
 
 Obs: Essa chamada foi uma ligação de saída para um celular. 
-
-![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 4.png)
+![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 4.png){: .zoom}
+<!-- [ ![](../../assets/imagens/tutorial/inicio/figura 4.png) ](../../assets/imagens/tutorial/inicio/figura 4.png) -->
 
 Já nesse caso temos uma ligação entrada. Onde ela entrou por uma fila de atendimento.
 
-![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 5.png)
+![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 5.png){: .zoom}
+<!-- [ ![](../../assets/imagens/tutorial/inicio/figura 5.png) ](../../assets/imagens/tutorial/inicio/figura 5.png) -->
 
 Se notarmos no canto direito temos um campo de “rastreamento” onde é possível ver todo o caminho da chamada. Desde o atendimento do agente (ramal) até o desligamento.
 
-![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 6.png)
-![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 7.png)
+![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 6.png){: .zoom}
+<!-- [ ![](../../assets/imagens/tutorial/inicio/figura 6.png) ](../../assets/imagens/tutorial/inicio/figura 6.png) -->
+
+
+![Imagem gnew](../../assets/imagens/tutorial/inicio/figura 7.png){: .zoom}
+<!-- [ ![](../../assets/imagens/tutorial/inicio/figura 7.png) ](../../assets/imagens/tutorial/inicio/figura 7.png) -->

@@ -12,7 +12,7 @@ copyright: Copyright &copy; GNEW
 
 # CONFIGURATION
 theme:
-    logo: assets/imagens/logo.png
+    logo: assets/imagens/logo.png#padrao
     favicon: assets/icons/índice.ico
     language: pt
     name: material
@@ -46,6 +46,8 @@ plugins:
 # CUSTOMIZATION
 extra_css:
   - assets/css/extra_css.css
+extra_javascript:
+  - assets/js/extra.js
 extra:
   social:
     - icon: fontawesome/brands/github

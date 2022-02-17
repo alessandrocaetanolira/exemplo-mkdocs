@@ -19,4 +19,4 @@ O Gnew informa os status de chamadas através da **API do Movidesk**, que recebe
 | GET  | /asterisk_startCanceledCall  |
 
 ## Layout do projeto
-![Imagem gnew](../../../assets/imagens/integracoes/movidesk/Fluxo.png)
+![Imagem gnew](../../../assets/imagens/integracoes/movidesk/Fluxo.png){: .zoom}
