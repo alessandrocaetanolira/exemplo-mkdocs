@@ -3,8 +3,8 @@ site_name: Gnew
 
 # REPOSITORY
 # Repository
-repo_name: alessandrocaetanolira/exemplo-mkdocs
-repo_url: https://github.com/alessandrocaetanolira/exemplo-mkdocs
+repo_name: Gnew-Solucoes-IP-Ltda
+repo_url: https://github.com/orgs/Gnew-Solucoes-IP-Ltda
 edit_uri: ""
 
 # COPYRIGHT
@@ -33,12 +33,14 @@ theme:
             icon: material/weather-sunny
             name: Modo Claro
 
-
 # Plugins
 plugins:
+  - mkdocs-video:
+      mark: "custom-marker"
   - search
   - minify:
       minify_html: true
+    
 
 
 # CUSTOMIZATION
@@ -47,17 +49,23 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/gitter
-      link: https://gitter.im/squidfunk/mkdocs-material
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/squidfunk/
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/squidfunk
+      link: https://github.com/Gnew-Solucoes-IP-Ltda
+    
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCZYXgSGFG63oF9vokkJhL9w
+      
+    # - icon: fontawesome/brands/github
+    #   link: https://github.com/squidfunk
+    # - icon: fontawesome/brands/gitter
+    #   link: https://gitter.im/squidfunk/mkdocs-material
+    # - icon: fontawesome/brands/docker
+    #   link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+    # - icon: fontawesome/brands/twitter
+    #   link: https://twitter.com/squidfunk
+    # - icon: fontawesome/brands/linkedin
+    #   link: https://linkedin.com/in/squidfunk/
+    # - icon: fontawesome/brands/instagram
+    #   link: https://instagram.com/squidfunk
 
 # Extensions
 markdown_extensions:
@@ -101,8 +109,8 @@ markdown_extensions:
 nav:
   - Gnew: index.md
   - Tutorial:
-    - Facilidades: pages/tutorial/facilidades.md
     - Início: pages/tutorial/inicio.md
+    - Facilidades: pages/tutorial/facilidades.md
     - Configurações iniciais: pages/tutorial/config_iniciais.md
   - Integrações: 
     - MoviDesk:
