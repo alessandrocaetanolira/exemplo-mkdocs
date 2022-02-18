@@ -4,9 +4,7 @@ hide:
   - both
   - toc
 ---
-![Imagem gnew](assets/imagens/logo.png)
+# Portifólio
 
 # Video example
 
-
-![custom-marker](https://www.youtube.com/embed/X4cWHwTDdUE)
